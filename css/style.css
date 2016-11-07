@@ -150,7 +150,7 @@ input [type="text"],input [type="submit"],input [type="button"],textarea{
 /*-- header-info --*/
 .header-info{
 	position: absolute;
-	width: 38%;
+	width: 100%;
 	top: 34%;
 	z-index:999;
 }
@@ -165,7 +165,7 @@ input [type="text"],input [type="submit"],input [type="button"],textarea{
 }
 .header-info p{
 	color: #FFF;
-	font-size: 0.875em;
+	font-size: 1.2em;
 	font-weight: normal;
 	margin: 1.5em 0 2em;
 	padding: 0;
@@ -246,7 +246,7 @@ a.d-btn:hover{
 }
 .header-section p{
 	color: #adadad;
-	font-size: 1em;
+	font-size: 2em;
 	font-weight: normal;
 	margin: 1em auto;
 	line-height: 1.5em;
@@ -1526,4 +1526,19 @@ a.r-btn, a.d-btn{
 	p.m_5, p.m_6 {
 		display: none;
 	}
+}
+h1{
+	font-size: 2.5em;
+	font-weight: bold;
+	color: white;
+}
+h2{
+	font-size: 2.0em;
+	font-weight: bold;
+	color: white;
+}
+p{
+	font-size: 3.0em;
+	font-weight: bold;
+	color: white;
 }
